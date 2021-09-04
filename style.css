@@ -62,7 +62,7 @@ button[type="submit"]:hover{
   background-color: rgb(172, 214, 248);
   color: rgb(20, 91, 150);
 }
-#status{
+#status-form{
   width: 90%;
   max-width: 500px;
   text-align: center;
@@ -71,12 +71,12 @@ button[type="submit"]:hover{
   opacity: 0;
   pointer-events: none;
 }
-#status.success{
+#status-form.success{
   background-color: rgb(148, 221, 119);
   color: green;
   animation: status 4s ease  forwards;
 }
-#status.error{
+#status-form.error{
   background-color: rgb(250, 129, 92);
   color: rgb(252, 252, 252);
   animation: status 4s ease  forwards;
